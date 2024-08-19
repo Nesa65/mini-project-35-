@@ -4,21 +4,25 @@ body{
 
 
 .container{
+    box-sizing: border-box;
     background-color:white;
     width:500px;
     height:500px;
     margin :auto;
+    margin-top:100px;
     box-shadow:1px 1px 8px 0 rgb(153, 150, 150);
     border-radius:5px;
+    padding:25px 0;
 
 }
 .profile{
-    border-radius:100%;
+    border:2px dotted rgb(148, 146, 146);
+    border-radius:50%;
     height:190px;
     width:180px;
     display:block;
-    margin:auto;
-    padding:30px;
+    margin:15px auto;
+    /* padding:30px; */
 }
 .title{
     color:#807878;
